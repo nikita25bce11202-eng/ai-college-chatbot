@@ -1,0 +1,345 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi","hello","hey","hey bot","hi bot","hello bot","good morning",
+        "good evening","good afternoon","hii","heyy","hola"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there!",
+        "Hey! What can I do for you?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye","goodbye","see you","see you later","talk later",
+        "bye bot","exit","quit","close"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks","thank you","thanks a lot","thank you so much",
+        "ty","thx","appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "what is your name","who are you","tell me your name",
+        "your name","bot name"
+      ],
+      "responses": [
+        "I am your AI college chatbot!"
+      ]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "help","can you help me","i need help",
+        "assist me","support","help me please"
+      ],
+      "responses": [
+        "Sure! Ask me anything about college."
+      ]
+    },
+
+    {
+      "tag": "exam",
+      "patterns": [
+        "exam","exam date","when is exam","exam schedule",
+        "when exam","next exam","exam timing","exam timetable"
+      ],
+      "responses": [
+        "Please check the academic calendar on VTOP for exam dates."
+      ]
+    },
+
+    {
+      "tag": "results",
+      "patterns": [
+        "result","results","exam result","my result",
+        "result date","when result","when will results come",
+        "check result"
+      ],
+      "responses": [
+        "Results will be announced on VTOP."
+      ]
+    },
+
+    {
+      "tag": "marks",
+      "patterns": [
+        "marks","internal marks","my marks",
+        "check marks","show marks","marks details",
+        "exam marks","semester marks"
+      ],
+      "responses": [
+        "You can check your marks on VTOP."
+      ]
+    },
+
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel","hostel timing","hostel rules",
+        "hostel closing time","girls hostel timing",
+        "hostel gate time"
+      ],
+      "responses": [
+        "Hostel closes at 7:30 PM for girls."
+      ]
+    },
+
+    {
+      "tag": "mess",
+      "patterns": [
+        "mess","mess timing","food timing",
+        "mess time","dining timing","meal timing"
+      ],
+      "responses": [
+        "Breakfast:7:30-9:30, Lunch:12:30-2:30, Snacks:5:00-6:30, Dinner:7:30-9:15."
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "library","library timing","is library open",
+        "library hours","library open time"
+      ],
+      "responses": [
+        "Library is open from 9 AM to 6 PM."
+      ]
+    },
+
+    {
+      "tag": "faculty",
+      "patterns": [
+        "faculty","faculty details","teacher",
+        "who is my teacher","professor name"
+      ],
+      "responses": [
+        "Please check your timetable on VTOP for faculty details."
+      ]
+    },
+
+    {
+      "tag": "courses",
+      "patterns": [
+        "courses","subjects","available courses",
+        "what courses are offered","department subjects"
+      ],
+      "responses": [
+        "Various engineering and science courses are available depending on your department."
+      ]
+    },
+
+    {
+      "tag": "attendance",
+      "patterns": [
+        "attendance","attendance criteria",
+        "minimum attendance","attendance rule",
+        "required attendance"
+      ],
+      "responses": [
+        "Minimum 75% attendance is required."
+      ]
+    },
+
+    {
+      "tag": "fees",
+      "patterns": [
+        "fees","fees structure","college fees",
+        "how much fees","tuition fees"
+      ],
+      "responses": [
+        "Please check VTOP for fee details."
+      ]
+    },
+
+    {
+      "tag": "placement",
+      "patterns": [
+        "placement","placement details","placement stats",
+        "campus placement","placement record"
+      ],
+      "responses": [
+        "Placement details are available on the college portal."
+      ]
+    },
+
+    {
+      "tag": "holiday",
+      "patterns": [
+        "holiday","holiday list","is tomorrow holiday",
+        "college holiday","next holiday"
+      ],
+      "responses": [
+        "Please check the academic calendar for holidays."
+      ]
+    },
+
+    {
+      "tag": "wifi",
+      "patterns": [
+        "wifi","wifi password","internet access",
+        "campus wifi","wifi login"
+      ],
+      "responses": [
+        "Please contact CTS for WiFi credentials."
+      ]
+    },
+
+    {
+      "tag": "sports",
+      "patterns": [
+        "sports","sports facilities","playground",
+        "sports ground","sports activities"
+      ],
+      "responses": [
+        "Sports facilities are available on the campus ground."
+      ]
+    },
+
+    {
+      "tag": "events",
+      "patterns": [
+        "events","college events","upcoming events",
+        "fest","campus events"
+      ],
+      "responses": [
+        "Check the academic calendar for upcoming events."
+      ]
+    },
+
+    {
+      "tag": "clubs",
+      "patterns": [
+        "clubs","student clubs","college clubs",
+        "technical clubs","non technical clubs"
+      ],
+      "responses": [
+        "There are many technical and non-technical clubs on campus."
+      ]
+    },
+
+    {
+      "tag": "admission",
+      "patterns": [
+        "admission","admission process",
+        "how to take admission","college admission",
+        "apply admission"
+      ],
+      "responses": [
+        "Visit the official website for admission details."
+      ]
+    },
+
+    {
+      "tag": "documents",
+      "patterns": [
+        "documents","required documents",
+        "documents needed","admission documents"
+      ],
+      "responses": [
+        "ID proof, marksheets and photos are required."
+      ]
+    },
+
+    {
+      "tag": "id_card",
+      "patterns": [
+        "id card","lost id card","id card issue",
+        "replace id card"
+      ],
+      "responses": [
+        "Contact CTS for ID card issues."
+      ]
+    },
+
+    {
+      "tag": "complaint",
+      "patterns": [
+        "complaint","report issue","problem",
+        "file complaint","register complaint"
+      ],
+      "responses": [
+        "You can register complaints at the admin office."
+      ]
+    },
+
+    {
+      "tag": "medical",
+      "patterns": [
+        "medical","doctor","medical facility",
+        "health center","clinic"
+      ],
+      "responses": [
+        "A medical room is available on campus."
+      ]
+    },
+
+    {
+      "tag": "security",
+      "patterns": [
+        "security","safety","campus security",
+        "is campus safe"
+      ],
+      "responses": [
+        "The campus has 24/7 security."
+      ]
+    },
+
+    {
+      "tag": "ragging",
+      "patterns": [
+        "ragging","anti ragging","ragging rules"
+      ],
+      "responses": [
+        "Ragging is strictly prohibited."
+      ]
+    },
+
+    {
+      "tag": "internship",
+      "patterns": [
+        "internship","training","industrial training",
+        "internship opportunity"
+      ],
+      "responses": [
+        "Internship opportunities are shared by the placement cell."
+      ]
+    },
+
+    {
+      "tag": "project",
+      "patterns": [
+        "project","final project","project submission",
+        "submit project"
+      ],
+      "responses": [
+        "Submit your project before the deadline."
+      ]
+    }
+
+  ]
+}
