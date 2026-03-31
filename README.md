@@ -26,16 +26,6 @@ If the chatbot cannot find a suitable response in its knowledge base, it can opt
 * NLP preprocessing
 * Requests library for optional internet search
 
-## Project Structure
-
-ai-college-chatbot
-│
-├── intents.json          # Knowledge base containing chatbot intents
-├── train_model.py        # Script to train the intent classification model
-├── chatbot.py            # Main chatbot program
-├── requirements.txt      # Required Python libraries
-└── README.md             # Project documentation
-
 ## Installation and Setup
 
 ### 1. Clone the Repository
